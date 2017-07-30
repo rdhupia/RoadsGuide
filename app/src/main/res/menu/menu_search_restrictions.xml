@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="rsdhupia.ca.roadsguide.SearchRestrictionsActivity">
+    <item android:id="@+id/action_home" android:title="@string/action_home"
+        android:icon="@drawable/home_icon"
+        android:orderInCategory="1" app:showAsAction="always" />
+    <item android:id="@+id/action_map" android:title="@string/action_map"
+        android:icon="@drawable/map_icon"
+        android:orderInCategory="1" app:showAsAction="always" />
+    <item android:id="@+id/action_search" android:title="@string/action_search"
+        android:icon="@drawable/search_icon"
+        android:orderInCategory="1" app:showAsAction="always" />
+    <item android:id="@+id/action_help" android:title="@string/action_help"
+        android:orderInCategory="2" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="3" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="rsdhupia.ca.roadsguide.HelpActivity"
+    android:orientation="vertical"
+    android:id="@+id/llayout_help"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plan your routes, avoid frustrations!"
+        android:id="@+id/textView6"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:allowUndo="false"
+        android:background="#0000BB" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Use the Road Guide application to search for any location in Toronto and find out all the road closures or on going construction work within a 3Km radius of the searched location."
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Map View"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Use Google Map to find your current location or search any address in Toronto and view the road restrictions on the map. You can choose list view from the main menu at any time to view the restrictions in the form of a list."
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="List View"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search for any location in Toronto using the form, filter your results and view all road restrictions around the area in a list. Click the road affected to view details. Click Map View icon at any time to view the restricitons on a map."
+        android:id="@+id/textView14" />
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
